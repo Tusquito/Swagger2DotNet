@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger2DotNet.CLI", "src\Swagger2DotNet.CLI\Swagger2DotNet.CLI.csproj", "{A08699F7-874B-4820-93CF-C7A272019C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swagger2DotNet.Libs", "src\Swagger2DotNet.Libs\Swagger2DotNet.Libs.csproj", "{544A1E37-D0A5-436D-B51E-AFEB7F4A3571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08699F7-874B-4820-93CF-C7A272019C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08699F7-874B-4820-93CF-C7A272019C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08699F7-874B-4820-93CF-C7A272019C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08699F7-874B-4820-93CF-C7A272019C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544A1E37-D0A5-436D-B51E-AFEB7F4A3571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544A1E37-D0A5-436D-B51E-AFEB7F4A3571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544A1E37-D0A5-436D-B51E-AFEB7F4A3571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544A1E37-D0A5-436D-B51E-AFEB7F4A3571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.CLI\\Swagger2DotNet.CLI.csproj": {}
+  },
+  "projects": {
+    "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.CLI\\Swagger2DotNet.CLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.CLI\\Swagger2DotNet.CLI.csproj",
+        "projectName": "Swagger2DotNet.CLI",
+        "projectPath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.CLI\\Swagger2DotNet.CLI.csproj",
+        "packagesPath": "C:\\Users\\pagniez_hugo@lilly.com\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.CLI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pagniez_hugo@lilly.com\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\Swagger2DotNet.Libs.csproj": {
+                "projectPath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\Swagger2DotNet.Libs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\Swagger2DotNet.Libs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\Swagger2DotNet.Libs.csproj",
+        "projectName": "Swagger2DotNet.Libs",
+        "projectPath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\Swagger2DotNet.Libs.csproj",
+        "packagesPath": "C:\\Users\\pagniez_hugo@lilly.com\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pagniez_hugo@lilly.com\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta4.22272.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

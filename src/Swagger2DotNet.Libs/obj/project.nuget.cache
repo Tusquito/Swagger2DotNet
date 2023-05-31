@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i8KH/ILqbQvGpRccHuSQnCYK5aiA6q1uZtro3U78it6rIkdasA35yaEkBLCo0Gzes8rTZcAz0Xxh1gNXz+nKIA==",
+  "success": true,
+  "projectFilePath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.Libs\\Swagger2DotNet.Libs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pagniez_hugo@lilly.com\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": []
+}
