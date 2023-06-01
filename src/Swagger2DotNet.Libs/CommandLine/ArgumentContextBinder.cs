@@ -8,12 +8,9 @@ public class ArgumentContextBinder : BinderBase<ArgumentsContext>
 {
     private readonly Option<FileInfo> _specsFile;
     private readonly Option<SwaggerSpecsFormat> _format;
-    private readonly Option<DirectoryInfo> _outputDir;
-
-    public ArgumentContextBinder(Option<FileInfo> specsFile, Option<DirectoryInfo> outputDir, Option<SwaggerSpecsFormat> format)
+    public ArgumentContextBinder(Option<FileInfo> specsFile, Option<SwaggerSpecsFormat> format)
     {
         _specsFile = specsFile;
-        _outputDir = outputDir;
         _format = format;
     }
 
@@ -23,7 +20,6 @@ public class ArgumentContextBinder : BinderBase<ArgumentsContext>
         {
             SpecsFile = bindingContext.ParseResult.GetValueForOption(_specsFile),
             Format = bindingContext.ParseResult.GetValueForOption(_format),
-            OutputDir = bindingContext.ParseResult.GetValueForOption(_outputDir)
         };
     }
 }

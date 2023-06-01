@@ -56,11 +56,25 @@
           }
         }
       },
+      "YamlDotNet/13.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swagger2DotNet.Libs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "System.CommandLine": "2.0.0-beta4.22272.1"
+          "System.CommandLine": "2.0.0-beta4.22272.1",
+          "YamlDotNet": "13.1.0"
         },
         "compile": {
           "bin/placeholder/Swagger2DotNet.Libs.dll": {}
@@ -114,6 +128,33 @@
         "lib/netstandard2.0/zh-Hant/System.CommandLine.resources.dll",
         "system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
         "system.commandline.nuspec"
+      ]
+    },
+    "YamlDotNet/13.1.0": {
+      "sha512": "S4tzJjofMDx8PKtbnwkaMznbPD1aUffVKW+ClhfOGAYFIPuY9sSrArcFQOcRkbwRP1kYIaMbXk4Vsnfk3dE3dQ==",
+      "type": "package",
+      "path": "yamldotnet/13.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net7.0/YamlDotNet.dll",
+        "lib/net7.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.13.1.0.nupkg.sha512",
+        "yamldotnet.nuspec"
       ]
     },
     "Swagger2DotNet.Libs/1.0.0": {

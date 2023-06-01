@@ -15,20 +15,14 @@ var format = new Option<SwaggerSpecsFormat>(
     description: "Format of Swagger specification file (Yaml or Json).",
     getDefaultValue: () => SwaggerSpecsFormat.Yaml);
 
-var outputDir = new Option<DirectoryInfo>(
-    name: "--output",
-    description: "Output of the generated sources.",
-    getDefaultValue: () => new DirectoryInfo("output"));
-
 var rootCommand = new RootCommand("Generate .NET client API libraries from Swagger specifications.");
 
 rootCommand.AddOption(specsFile);
 rootCommand.AddOption(format);
-rootCommand.AddOption(outputDir);
 
 rootCommand.SetHandler(async (context) =>
 {
     
-},new ArgumentContextBinder(specsFile, outputDir, format));
+},new ArgumentContextBinder(specsFile, format));
 
 await rootCommand.InvokeAsync(args);

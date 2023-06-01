@@ -6,5 +6,4 @@ public class ArgumentsContext
 {
     public required FileInfo? SpecsFile { get; init; }
     public required SwaggerSpecsFormat Format { get; init; }
-    public required DirectoryInfo? OutputDir { get; init; }
 }

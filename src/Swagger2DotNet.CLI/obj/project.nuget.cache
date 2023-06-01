@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRFKf2pd0Jy0Xm/BL7q7ky5K2PAQWNBlcTtAieFmP4Wb3jwyBcMuQ0zbiNJVIrAbaBUIneF6/UV1+vzaYx3juQ==",
+  "dgSpecHash": "cXIladrZSz5hN75ubBC7tNlVkf+BNl63ELuTniRwUWpXTr7E1hdv4C5Gumb/wi9pQExV9+o8nv1Vde9m6NH24g==",
   "success": true,
   "projectFilePath": "C:\\Repositories\\Swagger2DotNet\\src\\Swagger2DotNet.CLI\\Swagger2DotNet.CLI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pagniez_hugo@lilly.com\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+    "C:\\Users\\pagniez_hugo@lilly.com\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512",
+    "C:\\Users\\pagniez_hugo@lilly.com\\.nuget\\packages\\yamldotnet\\13.1.0\\yamldotnet.13.1.0.nupkg.sha512"
   ],
   "logs": []
 }
